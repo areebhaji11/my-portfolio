@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap'); 
+/* for navigation */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/* for mid section */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.frame{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/pexels-free-nature-stock-1564325.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navbar{
+
+
+    height:8vh;
+    width: 100%;
+ }
+ .bar ul {
+    display:flex;
+    justify-content: space-around;
+}
+.bar li  {
+    margin-top: 2%;
+  list-style-type: none;
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  
+}
+.bar li a{
+    text-decoration: none;
+    color: black;
+   
+}
+.bar li a:hover{
+    text-decoration: underline;
+}
+.bar {
+    float: center;
+    height: 8vh;
+    width:100%;
+    
+}
+.mid-div{
+    display: flex;
+    margin: 0%;
+    height: 80vh;
+    width: 100%;
+}
+.services{
+    height: 79vh;
+    width: 50%;
+}
+.img{
+    height: 79vh;
+    width: 60%; 
+    float: right;
+    background-image: url("../images/pexels-mikhail-nilov-7988238.jpg");
+}
+.services ul{
+    padding: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+.services li{
+    margin: 5%;
+}
+
+@media  screen and (max-width:400px) {
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+/* for navigation */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/* for mid section */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.frame{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/pexels-free-nature-stock-1564325.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navbar{
+
+
+    height:8vh;
+    width: 100%;
+ }
+.bar{
+    float: center;
+    height: 8vh;
+    width:100%;
+        
+}
+.bar ul {
+    display:flex;
+    justify-content: space-around;
+ }
+.bar li {
+    margin-top: 3%;
+    list-style-type: none;
+    font-family: 'Montserrat'!important;
+ }
+
+.bar li a{
+    text-decoration: none;
+    color: black;
+   
+}
+.bar li a:hover{
+    text-decoration: underline;
+}
+.bar {
+    float: center;
+    height: 8vh;
+    width:100%;
+    
+}
+.mid-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5.5%;
+    height: 80vh;
+    width: 100%;
+}
+.services{
+    height: 79vh;
+    width: 100%;
+
+}
+.img{
+    height: 79vh;
+    width: 100%; 
+    float: right;
+    background-image: url("../images/pexels-designecologist-1779487.jpg");
+    background-position: center;
+}
+.services ul{
+    padding: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+.services li{
+    margin: 5%;
+}
+
+}
